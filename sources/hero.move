@@ -65,6 +65,10 @@ module game_hero::hero {
         /// after attack, if success hero will up_level hero, up_level_sword and up_level_armor.
     }
 
+    public entry fun p2p_play(game: &GameInfo, hero1: &mut Hero, hero2: &mut Hero, ctx: &TxContext) {
+
+    }
+
     public fun up_level_hero(hero: &Hero): u64 {
         // calculator strength
     }
